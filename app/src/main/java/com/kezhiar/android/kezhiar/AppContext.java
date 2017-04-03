@@ -3,6 +3,8 @@ package com.kezhiar.android.kezhiar;
 import android.app.Activity;
 import android.app.Application;
 
+import com.tencent.bugly.crashreport.CrashReport;
+
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
 
@@ -24,6 +26,9 @@ public class AppContext extends Application {
     public void onCreate() {
         super.onCreate();
         APP_NAME = getResources().getString(R.string.app_name);
+
+        //初始化Bugly
+        CrashReport.initCrashReport(getApplicationContext(), "89c787f177", false);
     }
 
     public static synchronized void addActivityContext(Activity context) {
