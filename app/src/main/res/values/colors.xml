@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 灰色系 -->
+    <!-- gray scale -->
+    <color name="white">#FAFAFA</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="grey_dark">#616161</color>
+    <color name="black">#212121</color>
+
+    <!-- 基础色 -->
+    <!-- basic colors -->
+    <color name="red">#f44336</color>
+    <color name="blue_light">#64B5F6</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_dark">#1976D2</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF9800</color>
+
+</resources>

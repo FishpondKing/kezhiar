@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- 字体大小 -->
+    <!-- font sizes -->
+    <dimen name="font_display">34sp</dimen>
+    <dimen name="font_larger">24sp</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_middle">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+
+    <!-- View间距，margin，padding -->
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_huge">40dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:elevation="4dp"
+        android:title="">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_home_activity_toolbar_user_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/spacing_tiny"
+            app:civ_fill_color="@color/grey_light"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/grey_light"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_home_activity_toolbar_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:maxLines="1"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:layout_marginBottom="@dimen/spacing_large"
+            android:textSize="@dimen/font_middle"
+            android:textColor="@color/grey_light"
+            android:text="@string/toolbar_not_login"/>
+
+        <TextView
+            android:id="@+id/tv_home_activity_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/font_large"
+            android:textColor="@color/grey_light"
+            android:text="@string/company_name"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fragment_container_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottom_navigation_bar_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:elevation="8dp"
+        app:bnbMode="mode_fixed"
+        app:bnbBackgroundStyle="background_style_static"
+        app:bnbActiveColor="@color/blue"
+        app:bnbInactiveColor="@color/grey"/>
+
+</LinearLayout>

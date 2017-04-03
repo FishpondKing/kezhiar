@@ -1,0 +1,19 @@
+<resources>
+
+    <!--通用-->
+    <string name="app_name">科智AR</string>
+    <string name="company_name">科智公司</string>
+    <string name="about_us">关于我们</string>
+    <string name="AR">AR</string>
+    <string name="classic_case">经典案例</string>
+
+    <!--侧滑菜单-->
+    <string name="nav_collection">我的收藏</string>
+    <string name="nav_upload">上传</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_version">版本信息</string>
+
+    <!--HomeActivity-->
+    <string name="toolbar_not_login">未登录</string>
+
+</resources>
